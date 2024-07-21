@@ -4,7 +4,7 @@ import { Images } from '../../../constant';
 
 const Header = () => {
   return (
-    <div className='flex items-center justify-between'>
+    <div className='flex items-center justify-between w-full'>
         <div className=''>
             <img className='w-[80px] ml-10 p-2' src={Images.logo} alt='Logo' />
         </div>
