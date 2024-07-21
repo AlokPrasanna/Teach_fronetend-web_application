@@ -1,9 +1,13 @@
+import { Route, Routes } from 'react-router-dom'
 import './App.css'
+import { Login } from './pages';
 
 function App() {
   return (
     <div>
-      <span className='text-red-300 text-[20px] font-bold'>Welcome</span>
+      <Routes>
+        <Route path='/' element={<Login />} />
+      </Routes>
     </div>
   )
 }
